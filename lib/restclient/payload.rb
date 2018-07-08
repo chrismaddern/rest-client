@@ -134,7 +134,7 @@ module RestClient
       end
 
       def headers
-        super.merge({'Content-Type' => 'application/x-www-form-urlencoded'})
+        super
       end
     end
 
