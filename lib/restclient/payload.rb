@@ -223,7 +223,7 @@ module RestClient
       end
 
       def headers
-        super.merge({'Content-Type' => %Q{multipart/form-data; boundary=#{boundary}}})
+        super
       end
 
       def close
